@@ -1,0 +1,8 @@
+### Footprint positions - created on 2025-08-08T15:13:06+0200 ###
+### Printed by KiCad version 9.0.3-9.0.3-0~ubuntu24.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+LOG1      MLX_Logo  LOGO-SILK           81.5000   -60.7000  180.0000  bottom
+LOG2      MLX_Logo  LOGO                94.6750   -64.7250  -90.0000  bottom
+## End
