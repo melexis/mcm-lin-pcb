@@ -130,7 +130,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "fabrication/v1_1/")
+			(outputdirectory "fabrication/v1_2/")
 		)
 	)
 	(net 0 "")
