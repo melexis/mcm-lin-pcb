@@ -14,3 +14,5 @@
 ## Version 1.2
 
 * Add power jack voltage range and polarity in silkscreen
+* Update R12 to 4k7
+* Update D5 to SD106WS

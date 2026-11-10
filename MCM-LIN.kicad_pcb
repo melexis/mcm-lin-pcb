@@ -8878,7 +8878,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54J,115"
+		(property "Value" "SD106WS"
 			(at 0.1 1.9 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8890,7 +8890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8902,7 +8902,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+		(property "Description" "DIODE SCHOTTKY 70V 200MA SOD323"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15951,7 +15951,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "4k7"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26395,17 +26395,6 @@
 		(uuid "966cd440-cdab-41ee-8393-e388b436907b")
 	)
 	(gr_circle
-		(center 77.5 68.5)
-		(end 77.5 66)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.Mask")
-		(uuid "0870b260-ca61-4426-a337-ab25fbf1793c")
-	)
-	(gr_circle
 		(center 62.5 88.5)
 		(end 65 88.5)
 		(stroke
@@ -26417,6 +26406,17 @@
 		(uuid "d04f69b0-1614-4cd1-b378-a9199c8e4b65")
 	)
 	(gr_circle
+		(center 77.5 68.5)
+		(end 77.5 66)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "0870b260-ca61-4426-a337-ab25fbf1793c")
+	)
+	(gr_circle
 		(center 92.5 88.5)
 		(end 95 88.5)
 		(stroke
@@ -26426,61 +26426,6 @@
 		(fill yes)
 		(layer "B.Mask")
 		(uuid "dcb07b7d-af5a-4096-be2f-10523105b7d4")
-	)
-	(gr_circle
-		(center 77.5 68.5)
-		(end 78.95 68.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "03605ad9-01dc-41e3-8c47-f839122f032f")
-	)
-	(gr_circle
-		(center 62.5 88.5)
-		(end 63.95 88.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "044729ce-67d7-47ac-ad75-b56fcac4ab91")
-	)
-	(gr_line
-		(start 95 91)
-		(end 95 45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Edge.Cuts")
-		(uuid "29e6e8a6-085b-4839-a860-eadcc6e17e64")
-	)
-	(gr_circle
-		(center 92.5 88.5)
-		(end 93.95 88.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "3c27f9d2-e6e2-400d-88f1-836463ee3afe")
-	)
-	(gr_line
-		(start 60 91)
-		(end 95 91)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(locked yes)
-		(layer "Edge.Cuts")
-		(uuid "59be43fa-1580-49ba-b125-55c82a05a5d4")
 	)
 	(gr_line
 		(start 60 45)
@@ -26494,6 +26439,50 @@
 		(uuid "9e057880-399d-4f40-88bf-a14c45e4ebcd")
 	)
 	(gr_line
+		(start 60 91)
+		(end 95 91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "59be43fa-1580-49ba-b125-55c82a05a5d4")
+	)
+	(gr_circle
+		(center 62.5 88.5)
+		(end 63.95 88.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "044729ce-67d7-47ac-ad75-b56fcac4ab91")
+	)
+	(gr_circle
+		(center 77.5 68.5)
+		(end 78.95 68.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "03605ad9-01dc-41e3-8c47-f839122f032f")
+	)
+	(gr_circle
+		(center 92.5 88.5)
+		(end 93.95 88.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "3c27f9d2-e6e2-400d-88f1-836463ee3afe")
+	)
+	(gr_line
 		(start 95 45)
 		(end 60 45)
 		(stroke
@@ -26503,6 +26492,17 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "e92f1c30-239e-4aac-a65a-9152612d9573")
+	)
+	(gr_line
+		(start 95 91)
+		(end 95 45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "29e6e8a6-085b-4839-a860-eadcc6e17e64")
 	)
 	(gr_text "MCM LIN v1.2"
 		(at 60.85 68 90)
@@ -26514,18 +26514,6 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
-		)
-	)
-	(gr_text "VSUP"
-		(at 90 76.495 0)
-		(layer "B.SilkS")
-		(uuid "10054867-a22a-43cc-8ee8-572c3164538e")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.25)
-			)
-			(justify left mirror)
 		)
 	)
 	(gr_text "5.5..27V"
@@ -26541,10 +26529,34 @@
 			(justify bottom mirror)
 		)
 	)
+	(gr_text "VSUP"
+		(at 90 76.495 0)
+		(layer "B.SilkS")
+		(uuid "10054867-a22a-43cc-8ee8-572c3164538e")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "LIN"
 		(at 90 81.575 0)
 		(layer "B.SilkS")
 		(uuid "3daa93b4-a378-412f-b5c0-b50e555de553")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 90 84.115 0)
+		(layer "B.SilkS")
+		(uuid "b8fc9740-d4bf-4677-b2e1-4725d86e7660")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -26563,18 +26575,6 @@
 				(thickness 0.25)
 			)
 			(justify mirror)
-		)
-	)
-	(gr_text "GND"
-		(at 90 84.115 0)
-		(layer "B.SilkS")
-		(uuid "b8fc9740-d4bf-4677-b2e1-4725d86e7660")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.25)
-			)
-			(justify left mirror)
 		)
 	)
 	(segment
